@@ -413,7 +413,7 @@ app.post("/api/linkedin/login", async (req, res) => {
   }
 
   try {
-    //const browser = await puppeteer.launch({ headless: false });
+    // const browser = await puppeteer.launch({ headless: false });
      const browser = await puppeteer.launch({
        args: [
          "--disable-setuid-sandbox",
